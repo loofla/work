@@ -23,6 +23,7 @@ h2{
 }
 
 .con{
+    /*设置整体的大小*/
     width: 1480px;
     height: 200px;
     margin-top: 400px;
@@ -33,12 +34,14 @@ h2{
 }
 
 .con div{
+    /*确保平均分栏 每一栏都占1/4*/
     width: 25%;
     height: 200px;
     float: left;
 }
 
 a:link{
+    /*设置链接格式*/
     color: white;
     text-decoration: none;
     font-size: 35px;
@@ -47,6 +50,7 @@ a:link{
 }
 
 a:hover{
+    /*改变鼠标在链接上的颜色*/
     color:steelblue;
 }
 

@@ -74,6 +74,7 @@ a:link {
   
   
   nav {
+    /*导航栏设置背景*/
       background-color:lightslategray;
       margin: 10px 10px 0px 10px;
   }
@@ -83,10 +84,12 @@ a:link {
       padding: 5px 0px 5px 0px;
   }
   nav ul li {
+    /*将其设置为内联元素*/
       display: inline;
       padding: 5px 10px 5px 10px;
   }
   nav ul li a:link, nav ul li a:visited {
+    /*设置链接的颜色*/
       color:white;
       border-bottom: none;
       font-weight: bold;
