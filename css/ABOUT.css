@@ -1,0 +1,66 @@
+body{
+   background-image: url(背景4.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#headerLogo{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#header{
+    width: 100%;
+    text-align: center;
+}
+
+#future1{
+    width: 100px;
+    height: 100px;
+}
+
+
+footer{
+    position: absolute;
+    background-color:rgba(0,0,0,0.1) ;
+    width: 100%;
+    color:snow;
+    text-align: center;
+    bottom: 0;
+    font-size:95%;
+}
+
+.flex-box{
+    display: flex;
+    height:200px;
+    width:100%;
+    background:rgba(0,0,0,0.1);
+  }
+
+  .item:nth-child(2){
+    flex:1;
+    background-color: rgba(0,0,0,0.1);
+  }
+
+
+.item{
+    width: 200px;
+    background-color: rgba(0,0,0,0.1);
+    font-family: STfangsong;
+    font-size: 105%;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#past1{
+    width:100px;
+    height: 100px;
+}
+
+h1,h3{
+    font-size: 105%;
+}
+

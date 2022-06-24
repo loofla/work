@@ -1,0 +1,79 @@
+body{
+    background-image:url(背景2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#tableContainer{
+    display: table;
+    width: 1450px;
+    height: 740px;
+}
+
+div#tableRow1{
+    display:table-row;
+    height: 370px;
+}
+
+div#tableRow2{
+    display: table-row;
+    height: 370px;
+}
+
+#hiphop1{
+    display: table-cell;
+    background-image:url(hiphop1.jpg)  ;
+    background-size: cover;
+    padding: 15px;
+    vertical-align: top;
+    width: 483px;
+}
+
+#hiphop2{
+    display:table-cell;
+    font-family: STFangsong;
+    font-size:105%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 483px;
+    text-align: center;
+}
+
+#Games1{
+    display:table-cell;
+     font-family: STfangsong;
+     font-size:105%;
+     color: linen;
+     background-color:rgba(0, 0, 0, 0.1);
+     width: 483px;
+     text-align: center;
+}
+
+#Games2{
+    display:table-cell;
+    background-image: url(Games2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    vertical-align: bottom;
+    width: 483px;
+}
+
+#Esports2{
+    display: table-cell;
+    background-color:rgba(0, 0, 0, 0.1) ;
+    font-family: STfangsong;
+    font-size: 105%;
+    color: lavender;
+    width: 483px;
+    text-align: center;
+}
+
+#Esports1{
+    display: table-cell;
+    background-image: url(rng3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:15px;
+    vertical-align:top;
+}

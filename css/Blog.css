@@ -1,0 +1,97 @@
+body{
+    background-image: url(背景3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    font-family:"Lucida Calligraphy", cursive, serif, sans-serif;
+    font-size: larger;
+    color: white;
+    font-style: italic;
+
+}
+#picture{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+aside{
+    display: table-cell;
+    background:rgba(0,0,0,0.1);
+    font-family: STfangsong;
+    font-size: 105%;
+    color:white;
+    padding: 15px;
+    vertical-align: top;
+}
+
+section#日常{
+    font-family: STfangsong;
+    display: table-cell;
+    background-color: rgba(0,0,0,0.1);
+    width:38%;
+    padding:15px;
+    vertical-align: top;
+    color: white;
+    font-size: 105%;
+    text-align: center;
+}
+
+section#blog{
+    display: table-cell;
+    background-color:rgba(0,0,0,0.1) ;
+    font-family: STfangsong;
+    font-size:105%;
+    padding: 15px;
+    vertical-align: top;
+    color: white;
+    width: 38%;
+    text-align: center;
+}
+
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+
+div#tableRow {
+	display: table-row;
+}
+
+a:link {
+    color:lemonchiffon;
+    text-decoration:  none;
+    border-bottom:    thin dotted lemonchiffon;
+  }
+  a:visited {
+    color:rosybrown;
+    text-decoration:  none;
+    border-bottom:    thin dotted rosybrown;
+  }
+  
+  
+  nav {
+      background-color:lightslategray;
+      margin: 10px 10px 0px 10px;
+  }
+  nav ul {
+      margin: 0px;
+      list-style-type: none;
+      padding: 5px 0px 5px 0px;
+  }
+  nav ul li {
+      display: inline;
+      padding: 5px 10px 5px 10px;
+  }
+  nav ul li a:link, nav ul li a:visited {
+      color:white;
+      border-bottom: none;
+      font-weight: bold;
+  }
+
+  nav ul li.selected {
+      background-color:lightslategray;
+  }
